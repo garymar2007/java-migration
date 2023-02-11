@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.linkedin.hsports.services.RecommendationServiceTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\bin"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\common_folder\java-migration-project"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\common_folder\java-migration-project"/>
+    <property name="java.runtime.version" value="1.8.0_352-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\gary.ma\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\workspaces\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10858982820112539630.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_352\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/jdk-17/bin/server;C:/jdk-17/bin;C:/Users/gary.ma/AppData/Local/Temp/eoi9BC6.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/gary.ma/AppData/Local/Temp/eoi9BC6.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\Google\Chrome\Application;C:\Program Files\Amazon Corretto\jdk1.8.0_352\bin;C:\apache-maven-3.8.6\bin;C:\jq-win64.exe;C:\Go\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\kafka_2.13-3.2.0\bin\windows\;C:\Oracle\instantclient_19_12\;C:\apache-ant-1.10.11\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Kubernetes\Minikube;C:\SlikSvn\bin;C:\Kubernetes\Minikube;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\SqlDeveloper_22\sqldeveloper\sqldeveloper\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\gary.ma\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\bin;;C:\Microsoft VS Code\bin;C:\Users\gary.ma\go\bin;C:\Users\gary.ma\AppData\Roaming\npm;C:\Users\gary.ma\Downloads;;C:\Users\gary.ma\Downloads;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\gary.ma"/>
+    <property name="user.timezone" value="Africa/Harare"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Gary.Ma"/>
+    <property name="java.class.path" value="C:\Users\gary.ma\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Pjava8 -B clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_352"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\lib\resources.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\lib\rt.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\lib\sunrsasign.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\lib\jsse.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\lib\jce.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\lib\charsets.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\lib\jfr.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_352\jre\classes"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="C:\common_folder\java-migration-project\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="getRecommendationsTest" classname="com.linkedin.hsports.services.RecommendationServiceTest" time="0"/>
+</testsuite>

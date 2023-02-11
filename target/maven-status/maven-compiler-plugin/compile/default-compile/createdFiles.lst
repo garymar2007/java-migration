@@ -1,0 +1,7 @@
+com\linkedin\hsports\services\RecommendationService.class
+com\linkedin\hsports\services\RecommendationConfiguration.class
+com\linkedin\hsports\HplusSportApiApplication.class
+com\linkedin\hsports\domain\Product.class
+com\linkedin\hsports\api\RecommendationController.class
+com\linkedin\hsports\services\ProductService.class
+com\linkedin\hsports\api\ProductController.class
